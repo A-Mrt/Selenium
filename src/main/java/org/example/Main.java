@@ -22,5 +22,6 @@ public class Main {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         System.out.println("Jesteś na stronie" + driver.getCurrentUrl());
         driver.quit();
+
     }
 }
